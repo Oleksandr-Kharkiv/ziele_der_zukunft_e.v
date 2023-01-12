@@ -1,5 +1,6 @@
 .language-list {
     @extend %list;
+    text-transform: uppercase;
 }
 .language-list__item {}
 
