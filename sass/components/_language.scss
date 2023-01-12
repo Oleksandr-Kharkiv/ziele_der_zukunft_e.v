@@ -1,0 +1,8 @@
+.language-list {
+    @extend %list;
+}
+.language-list__item {}
+
+.language-list__link {
+    @extend %link;
+}

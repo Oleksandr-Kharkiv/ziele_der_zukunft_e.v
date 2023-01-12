@@ -4,6 +4,8 @@
 @import './utils/mixins';
 @import './utils/base';
 @import './utils/visually-hidden';
-@import './components/header';
+@import './components/page-header';
+@import './components/language';
+@import './components/contacts';
 @import './components/our-goal';
-@import './components/footer';
+@import './components/page-footer';

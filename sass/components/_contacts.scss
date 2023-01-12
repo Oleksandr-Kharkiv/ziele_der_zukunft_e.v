@@ -1,0 +1,35 @@
+.contacts-list {
+    @extend %list;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    
+    @include tablet{
+       flex-direction: row;
+       column-gap: 15px;
+    }
+}
+.contacts-list__item {
+
+}
+
+.contacts-list__link {
+    @extend %link;
+    display: flex;
+    column-gap: 6px;
+    align-items: center;
+
+    @include tablet { 
+        
+        
+    }
+    
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+.contacts-list__icon {
+    fill: currentColor;
+}

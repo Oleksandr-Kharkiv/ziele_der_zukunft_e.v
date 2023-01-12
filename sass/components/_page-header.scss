@@ -1,0 +1,10 @@
+.page-header {
+    outline: 1px solid tomato;
+}
+.page-header__container { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
