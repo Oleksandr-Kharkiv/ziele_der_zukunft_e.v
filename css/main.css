@@ -141,7 +141,7 @@ body {
   color: var(--black-text-color-logo);
   letter-spacing: 0.03em;
 }
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 380px) {
   .language-list__link {
     font-size: 30px;
     line-height: 1.1333333333;
@@ -160,6 +160,8 @@ body {
 }
 
 .language-list__icon {
+  min-width: 40px;
+  min-height: 30px;
   margin-right: 10px;
 }
 
