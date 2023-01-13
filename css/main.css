@@ -121,7 +121,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url("./images/ukraine-outline.svg");
+  background-image: url("../images/ukraine-outline.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
