@@ -1,6 +1,7 @@
 .language__container {
-    display: block;
-    
+    padding-top: 35vh;
+    display: flex;
+    justify-content: center;
 }
 
 .language-list {
@@ -8,12 +9,27 @@
     display: flex;
     flex-direction: column;
     row-gap: 30px;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
 }
 .language-list__item {}
 
 .language-list__link {
     @extend %link;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: calc(36/32);
+    color: var(--black-text-color-logo);
+    letter-spacing: 0.05em;
+    
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+.language-list__icon {
+    margin-right: 10px;
 }
