@@ -59,7 +59,7 @@
       <path fill="#d00" d="M0 10.667h53.333V32H0V10.667z" style="fill:var(--color4, #d00)"/>
       <path fill="#ffce00" d="M0 21.333h53.333V32H0V21.333z" style="fill:var(--color5, #ffce00)"/>
     </symbol>
-    <symbol id="uaukraineflag" viewBox="0 0 49 32">
+    <symbol id="uaukraineflag" viewBox="0 0 55 32">
       <path fill="#005bbb" d="M0 0h48v32H0V0z" style="fill:var(--color6, #005bbb)"/>
       <path fill="#ffd500" d="M0 16h48v16H0V16z" style="fill:var(--color7, #ffd500)"/>
     </symbol>
