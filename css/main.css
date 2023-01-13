@@ -105,13 +105,18 @@ body {
 }
 
 .language__container {
-  padding-top: 15%;
+  padding-top: 35%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .language__container {
+    padding-top: 15%;
+  }
 }
 
 .language-list {
