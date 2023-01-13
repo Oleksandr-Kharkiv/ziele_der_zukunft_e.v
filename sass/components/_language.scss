@@ -1,5 +1,5 @@
 .language__container {
-    padding-top: 35vh;
+    padding-top: 15%;
     display: flex;
     justify-content: center;
 }
@@ -10,7 +10,7 @@
     flex-direction: column;
     row-gap: 30px;
 }
-.language-list__item {}
+// .language-list__item {}
 
 .language-list__link {
     @extend %link;
