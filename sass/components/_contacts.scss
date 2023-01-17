@@ -3,15 +3,6 @@
     display: flex;
     flex-direction: column;
     row-gap: 15px;
-    
-    @include tablet {
-       flex-direction: row;
-       column-gap: 15px;
-       row-gap: 0;
-    }
-}
-.contacts-list__item {
-
 }
 
 .contacts-list__link {
@@ -22,8 +13,13 @@
     color: var(--black-text-color);
     font-weight: 500;
 
-    @include tablet { 
-        
+    @extend %link;
+    color: var(--text-and-primary-bg-white-color);
+    display: flex;
+    justify-content: center;
+
+    @include mobile {
+        justify-content: left;
     }
     
     &:hover,

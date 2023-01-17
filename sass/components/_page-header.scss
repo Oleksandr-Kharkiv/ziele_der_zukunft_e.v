@@ -4,13 +4,12 @@
 .page-header__container { 
     display: flex;
     column-gap: 5px;
-    justify-content: space-evenly;
-    align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    justify-content: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
     @include tablet {
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
