@@ -14,6 +14,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!-- Slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/main.min.css" />
 </head>
 <body>
@@ -47,7 +54,7 @@
     <main>
         <section class="our-goal"> 
             <div class="container">
-                <h1></h1>
+                <h1 class="visually-hidden">Наші цілі</h1>
                 <p class="text">
                     Благодійна організація "Ziele der Zukunft e.V." поставила собі за мету надання підтримки та
                     забезпечення продуктами
@@ -59,9 +66,129 @@
                 </p>
             </div>
         </section>
+        <!-- <section class="gallery">
+            <div class="container">
+                <h2 class="visually-hidden">Наша галерея</h2>
+                <ul class="gallery-set autoplay">
+                    <li class="gallery-item">
+                        <picture class="gallery-thumb">
+                           <source srcset="
+                               ./images/gallery/brooke-lark-unsplash-desktop.jpg   1x,
+                               ./images/gallery/brooke-lark-unsplash-desktop@2x.jpg 2x
+                             " media="(min-width: 769px)" />
+                            <source srcset="
+                               ./images/gallery/brooke-lark-unsplash-tab.jpg    1x,
+                               ./images/gallery/brooke-lark-unsplash-tab@2x.jpg 2x
+                             " media="(max-width: 768px)" />
+                            <source srcset="
+                               ./images/gallery/brooke-lark-unsplash-mob.jpg    1x,
+                               ./images/gallery/brooke-lark-unsplash-mob@2x.jpg 2x
+                             " media="(max-width: 480px)" />
+                            <img src="./images/gallery/brooke-lark-unsplash-desktop.jpg"
+                              alt="на фото морозиво у вафельних стаканчиках з різними смаками та чорниця"
+                              class="gallery-photo" />
+                            </picture>
+                    </li>
+                    <li class="gallery-item">
+                        <picture class="gallery-thumb">
+                              <source srcset="
+                                          ./images/gallery/tropical-fruits-desktop.jpg   1x,
+                                          ./images/gallery/tropical-fruits-desktop@2x.jpg 2x
+                                        " media="(min-width: 769px)" />
+                              <source srcset="
+                                          ./images/gallery/tropical-fruits-tab.jpg   1x,
+                                          ./images/gallery/tropical-fruits-tab@2x.jpg 2x
+                                        " media="(max-width: 768px)" />
+                              <source srcset="
+                                          ./images/gallery/tropical-fruits-mob.jpg    1x,
+                                          ./images/gallery/tropical-fruits-mob@2x.jpg 2x
+                                        " media="(max-width: 480px)" />
+                              <img src="./images/gallery/tropical-fruits-desktop.jpg"
+                                alt="на фото морозиво у вафельних стаканчиках з різними смаками та фруктами" class="gallery-photo" />
+                            </picture>
+                    </li>
+                    <li class="gallery-item">
+                            <picture class="gallery-thumb">
+                              <source srcset="
+                                ./images/gallery/courtney-cook-unsplash-desktop.jpg   1x,
+                                ./images/gallery/courtney-cook-unsplash-desktop@2x.jpg 2x
+                              " media="(min-width: 769px)" />
+                              <source srcset="
+                                ./images/gallery/courtney-cook-unsplash-tab.jpg   1x,
+                                ./images/gallery/courtney-cook-unsplash-tab@2x.jpg 2x
+                              " media="(max-width: 768px)" />
+                              <source srcset="
+                                ./images/gallery/courtney-cook-unsplash-mob.jpg   1x,
+                                ./images/gallery/courtney-cook-unsplash-mob@2x.jpg 2x
+                              " media="(max-width: 480px)" />
+                              <img src="./images/gallery/courtney-cook-unsplash-desktop.jpg"
+                                alt="на фото морозиво у вафельних стаканчиках з різними смаками"
+                                class="gallery-photo" />
+                            </picture>
+                    </li>
+                    <li class="gallery-item">
+                            <picture class="gallery-thumb">
+                              <source srcset="
+                                          ./images/gallery/strawberry-ice-cream-desktop.jpg   1x,
+                                          ./images/gallery/strawberry-ice-cream-desktop@2x.jpg 2x
+                                        " media="(min-width: 769px)" />
+                              <source srcset="
+                                          ./images/gallery/strawberry-ice-cream-tab.jpg   1x,
+                                         ./images/gallery/strawberry-ice-cream-tab@2x.jpg 2x
+                                        " media="(max-width: 768px)" />
+                              <source srcset="
+                                          ./images/gallery/strawberry-ice-cream-mob.jpg    1x,
+                                          ./images/gallery/strawberry-ice-cream-mob@2x.jpg 2x
+                                        " media="(max-width: 480px)" />
+                              <img src="./images/gallery/strawberry-ice-cream-desktop.jpg" alt="на фото тарілка з морозивом, малиною та полуницею"
+                                class="gallery-photo" />
+                            </picture>
+                    </li>
+                    <li class="gallery-item">
+                            <picture class="gallery-thumb">
+                              <source srcset="
+                                ./images/gallery/unsplash-desktop.jpg   1x,
+                                ./images/gallery/unsplash-desktop@2x.jpg 2x
+                              " media="(min-width: 769px)" />
+                              <source srcset="
+                                ./images/gallery/unsplash-tab.jpg   1x,
+                                ./images/gallery/unsplash-tab@2x.jpg 2x
+                              " media="(max-width: 768px)" />
+                              <source srcset="
+                                ./images/gallery/unsplash-mob.jpg    1x,
+                                ./images/gallery/unsplash-mob@2x.jpg 2x
+                              " media="(max-width: 480px)" />
+                              <img src="./images/gallery/unsplash-desktop.jpg"
+                                alt="на фото морозиво та черешня"
+                                class="gallery-photo" />
+                            </picture>
+                    </li>
+                    <li class="gallery-item">
+                            <picture class="gallery-thumb">
+                              <source srcset="
+                                ./images/gallery/fruit-popsicles-desktop.jpg   1x,
+                                ./images/gallery/fruit-popsicles-desktop@2x.jpg 2x
+                              " media="(min-width: 769px)" />
+                              <source srcset="
+                                ./images/gallery/fruit-popsicles-tab.jpg   1x,
+                                ./images/gallery/fruit-popsicles-tab@2x.jpg 2x
+                              " media="(max-width: 768px)" />
+                              <source srcset="
+                                ./images/gallery/fruit-popsicles-mob.jpg    1x,
+                                ./images/gallery/fruit-popsicles-mob@2x.jpg 2x
+                              " media="(max-width: 480px)" />
+                              <img src="./images/gallery/fruit-popsicles-desktop.jpg"
+                              alt="на фото морозиво та тропічні фрукти"
+                                class="gallery-photo" />
+                        </picture>
+                    </li>
+                </ul>
+            </div>
+        </section>       -->
         <section class="banking">
             <div class="container">
-                <p class="banking__iban">Sparkasse Mittelthüringen: (IBAN: DE12 8205 1000 0163 1511 05, BIC: HELADEF1WEM)</p>
+                <h2 class="visually-hidden">Допомога фонду</h2>
+                <p class="banking__iban">Sparkasse Mittelthüringen: ( <a href="IBAN: DE12 8205 1000 0163 1511 05">IBAN: DE12 8205 1000 0163 1511 05</a>, BIC: HELADEF1WEM)</p>
                 <div class="banking__thumb">
                 <p class="donate">Підтримати наш фонд через платформу</p>
                     <a href="https://www.betterplace.org/de/projects/117908?utm_campaign=email-notifications&utm_medium=betterplace-org--p117908&utm_source=project_manager_notifier-project_activated_message"
@@ -149,5 +276,10 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="./js/slider.js"></script>
 </body>
 </html>

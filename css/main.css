@@ -199,6 +199,99 @@ body {
   }
 }
 
+.our-goal {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: var(--text-and-primary-bg-white-color);
+}
+@media screen and (min-width: 768px) {
+  .our-goal {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+.gallery-photo {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+@media screen and (min-width: 768px) {
+  .gallery-photo {
+    border-radius: 18px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .gallery-photo {
+    border-radius: 24px;
+  }
+}
+
+.autoplay > .slick-list {
+  margin-bottom: 0;
+}
+
+.slick-dotted.slick-slider {
+  margin-bottom: 0;
+}
+
+.single-item > .slick-list {
+  margin-bottom: 12px;
+}
+@media screen and (min-width: 768px) {
+  .single-item > .slick-list {
+    margin-bottom: 32px;
+  }
+}
+
+.slick-dots {
+  position: static;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 18px;
+     -moz-column-gap: 18px;
+          column-gap: 18px;
+}
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: var(--background-primary-color);
+}
+
+.slick-dots li {
+  position: relative;
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+.slick-dots li button {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.slick-dots li button:before {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 12px;
+  opacity: 1;
+  color: var(--slider-dots-color);
+  -webkit-transition: color var(--animation);
+  transition: color var(--animation);
+  cursor: var(--cursor-hover);
+}
+.slick-dots li button:hover:before {
+  color: var(--background-primary-color);
+}
+
 .banking {
   padding-top: 15px;
   background-color: var(--second-bg-color);
@@ -237,18 +330,6 @@ body {
 .donate__icon:hover,
 .donate__icon:focus {
   fill: #9ecb09;
-}
-
-.our-goal {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: var(--text-and-primary-bg-white-color);
-}
-@media screen and (min-width: 768px) {
-  .our-goal {
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
 }
 
 .page-footer {

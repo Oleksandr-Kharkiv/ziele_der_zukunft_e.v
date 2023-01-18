@@ -1,0 +1,77 @@
+.gallery {
+
+}
+
+.gallery-photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+
+    @include tablet {
+        border-radius: 18px;
+    }
+
+    @include desktop {
+        border-radius: 24px;
+    }
+}
+
+.autoplay > .slick-list {
+    margin-bottom: 0;
+}
+
+//                         js class styles
+
+.slick-dotted.slick-slider {
+    margin-bottom: 0;
+}
+.single-item > .slick-list {
+    margin-bottom: 12px;
+
+    @include tablet {
+        margin-bottom: 32px;
+    }
+}
+.slick-dots {
+    position: static;
+    display: flex;
+    justify-content: center;
+    column-gap: 18px;
+
+    & li.slick-active button:before {
+        opacity: 1;
+        color: var(--background-primary-color);
+    }
+}
+.slick-dots li {
+    position: relative;
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-dots li button {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    
+
+    &:before {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        font-size: 12px;
+        opacity: 1;
+        color: var(--slider-dots-color);
+        transition: color var(--animation);
+        cursor: var(--cursor-hover);
+    }
+
+    &:hover:before {
+        color: var(--background-primary-color);
+    }
+}
