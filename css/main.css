@@ -217,7 +217,7 @@ body {
   padding-bottom: 15px;
 }
 
-.gallery-set {
+.gallery-set.single-item {
   margin-bottom: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -240,6 +240,8 @@ body {
 
 .gallery-photo {
   display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .banking {

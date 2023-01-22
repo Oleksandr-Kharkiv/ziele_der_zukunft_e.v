@@ -3,7 +3,7 @@
     padding-bottom: 15px;
 }
 
-.gallery-set {
+.gallery-set.single-item {
     margin-bottom: 0;
     display: flex;
     justify-content: center;
@@ -18,5 +18,6 @@
 
 .gallery-photo {
     display: block;
-//   
+    object-fit: cover;   
+
 }

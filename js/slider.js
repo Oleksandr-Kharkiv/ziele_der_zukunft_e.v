@@ -5,6 +5,6 @@ $('.single-item').slick({
   fade: true,
   dots: true,
   infinite: true,
-  adaptiveHeight: true,
+  // adaptiveHeight: true,
   speed: 300,
 });
