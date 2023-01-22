@@ -2,22 +2,27 @@
     padding-top: 15px;
     padding-bottom: 15px;
 }
-
-.gallery-set.single-item {
-    margin-bottom: 0;
+.gallery__thumb {
     display: flex;
     justify-content: center;
-    padding-inline-start: 0;
+}
+
+.gallery-set {
+    @extend %list;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .gallery-item {
     
-    display: flex;
-    justify-content: center;
+    // display: flex;
+    // justify-content: center;
 }
 
 .gallery-photo {
     display: block;
+    max-width: 100%;
     object-fit: cover;   
 
 }
