@@ -12,12 +12,22 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+
+    @include desktop {
+        gap: 30px;
+    }
 }
 
 .gallery-item {
     
     // display: flex;
     // justify-content: center;
+}
+
+.desktop-hidden {
+    @include tablet {
+    display: none;
+    }
 }
 
 .gallery-photo {
