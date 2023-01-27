@@ -108,7 +108,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .main-content {
-    background-image: var(--gra), url(/images/123.jpg);
+    background-image: var(--gra), url(../images/123.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
