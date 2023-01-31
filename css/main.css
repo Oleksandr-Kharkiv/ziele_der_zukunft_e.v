@@ -402,7 +402,7 @@ body {
   }
 }
 .contacts-list__link:hover, .contacts-list__link:focus {
-  color: var(--accent-color-1);
+  color: var(--accent-color-2);
 }
 
 .contacts-list__icon {
